@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<style>
+	*{
+		font-weight: bold;
+		font-family:  Courier New, monospace;
+	}
+h1{
+	text-align: center;
+	font-size: 75px;
+}	
+
+@media 
+{.col-lg-4
+	{
+		float: left;
+		border: 1px solid black;
+}
+.col-lg-4{
+	width: 32%;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+	background-color: gray;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{.col-md-6, .col-md-12{
+	float: left;
+	border: 1px solid black;
+}
+.col-md-6
+{
+	width: 44.2%;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+	background-color: gray;
+}
+.col-md-12
+{
+	width: 90%;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+	background-color: gray;
+}
+
+}
+
+@media (max-width: 767px)
+{.col-sm-12;{
+	float: left;
+	border: 1px solid black;
+}
+.col-sm-12
+{
+	width: 96%;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+	background-color: gray;
+}
+}
+
+h2{
+	text-align: center;
+}
+#first{
+	padding-left: 5px;
+	padding-right: 5px;
+} 
+#box1, #box2, #box3
+{
+	float: right;
+	position: relative;
+	top: -20px;
+	font-size: 25px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	width: 150px;
+
+}
+#box1{
+background-color:salmon; 
+}
+#box2{
+background-color: lightcoral;
+}
+#box3{
+background-color: khaki;
+}
+#con1 ,#con2, #con3{
+	padding: 0px 10px 0px 10px;
+	clear: right;
+}
+
+
+</style>
+
+<h1>Our Menu</h1>
+
+<div class="container-fluid">
+	<div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12"><p id="first">
+        	<h2><div id="box1">Chicken</div></h2>
+        	<div id="con1">loreum ipsumdolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore managa aliqua. Ut enim ad minim veniam ,quis nostrd exercitation ullamco laboris nisi ut aliquip ex ea.</div>
+        </p></div>
+        <div class="col-lg-4 col-md-6 col-sm-12"><p id="first">
+        	<h2><div id="box2">Beef</div></h2>
+        	<div id="con2">loreum ipsumdolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore managa aliqua. Ut enim ad minim veniam ,quis nostrd exercitation ullamco laboris nisi ut aliquip ex ea.</div>
+        </p></div>
+        <div class="col-lg-4 col-md-12 col-sm-12"><p id="first">
+        	<h2><div id="box3">Sushi</div></h2>
+        	<div id="con3">loreum ipsumdolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore managa aliqua. Ut enim ad minim veniam ,quis nostrd exercitation ullamco laboris nisi ut aliquip ex ea.</div>
+        </p></div>
+	</div>
+</div>		
+
+</body>
+</html>
